@@ -1,0 +1,50 @@
+Lab Deliverable 4
+
+1. /* 
+Name: Michael Bates
+Student ID: 306724956
+*/
+
+2. console.log(1 + 2 + 3 + 4 + 5)
+
+3.	let base = 5;
+    let height = 10;
+    let area = (base * height);
+    console.log(area)
+
+
+4.	const pi = 3.14;
+	let radius = 12;
+	let radiusCubed = (radius * radius * radius);
+	let volume = ((4 / 3) * (pi * radiusCubed));
+	console.log(volume)
+	
+5.	console.log("The sum of 5 and 3 is " + (5 + 3))
+
+6.	let age = 20;
+	console.log("My age is " + age + " years old.")
+	
+7.	console.log("In Javascript, we use the backslash (\\) to escape special characters")
+
+8.  console.log("Einstein once said: \"Life is like riding a bicycle. To keep your balance, you must keep moving.\"") <!-- Strange occurence where this doesn't work in fiddle but, works in standard console. Had this problem with a few of my other expressions. -->
+
+9.  let small = 4;
+	let big = 8;
+	console.log(small >= big)
+	
+10. console.log(5 > 3 && 3 > 0)
+
+11. console.log(5 == 3 || 3 < 10)
+
+12. console.log(typeof 5) <!-- testing functionality by putting "" around the 5 shows that it works as "5" is considered a string -->
+
+13. console.log((5 + 3) > (5 * 3)) <!-- testing with a 1 instead of a 3 makes the statement true -->
+
+14. let radius = 5;
+	let radiusSquared = (radius * radius);
+	let Cheight = 6;
+	const pi = 3.14;
+	let coneVol = ((1/3) * pi * radiusSquared * Cheight);
+	let cylinderVol = (pi * radiusSquared * Cheight);
+	let result = (coneVol > cylinderVol);
+	console.log("The volume of the cone, " + coneVol + " is greater than the volume of the cylinder, " + cylinderVol + ": " + result)
